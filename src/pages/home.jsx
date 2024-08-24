@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styling/Home.css';
+import Testimonials from './Testimonials';
 
 const HomePage = () => {
   return (
@@ -9,7 +10,7 @@ const HomePage = () => {
           <div className="hero-content">
             <h1>Savor the Earth’s Delicacies</h1>
             <p>Explore our selection of organic mushrooms and snails, grown with care.</p>
-            <button className="cta-button">Shop Now</button>
+            {/* <button className="cta-button">Shop Now</button> */}
           </div>
         </section>
       </section>
@@ -18,16 +19,32 @@ const HomePage = () => {
         <h2>Featured Products</h2>
         <div className="product-list">
           <div className="product-card">
-            <img src="../../src/assets/fancy.webp" alt="Organic Shiitake Mushrooms" />
-            <h3>Organic Shiitake Mushrooms</h3>
-            <p>Rich in flavor and nutrients.</p>
-            <button>Add to Cart</button>
+            <div className="product-card-inner">
+              <div className="product-card-front">
+                <img src="../../src/assets/11.webp" alt="Organic Shiitake Mushrooms" />
+                <h3>Organic Shiitake Mushrooms</h3>
+              </div>
+              <div className="product-card-back">
+                <h3>Organic Shiitake Mushrooms</h3>
+                <p>Rich in flavor and nutrients.</p>
+                <p>Perfect for various dishes.</p>
+                <button>Add to Cart</button>
+              </div>
+            </div>
           </div>
+
           <div className="product-card">
-            <img src="/images/snail1.jpg" alt="Fresh Snails" />
-            <h3>Fresh Snails</h3>
-            <p>A gourmet delight for your table.</p>
-            <button>Add to Cart</button>
+            <div className="product-card-inner">
+              <div className="product-card-front">
+                <img src="/images/snail1.jpg" alt="Fresh Snails" />
+                <h3>Fresh Snails</h3>
+              </div>
+              <div className="product-card-back">
+                <h3>Fresh Snails</h3>
+                <p>A gourmet delight for your table.</p>
+                <button>Add to Cart</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -53,19 +70,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="testimonials">
-        <h2>What Our Customers Say</h2>
-        <div className="testimonial-cards">
-          <div className="testimonial-card">
-            <p>"The best mushrooms I've ever had! Fresh and full of flavor."</p>
-            <h4>- Sarah M.</h4>
-          </div>
-          <div className="testimonial-card">
-            <p>"The snails were amazing, a true gourmet experience."</p>
-            <h4>- John D.</h4>
-          </div>
-        </div>
-      </section>
+      <Testimonials /> 
 
       <section className="cta-section">
         <h2>Ready to Try the Best?</h2>
