@@ -2,8 +2,10 @@ import React from 'react';
 import '../styling/Home.css';
 import Testimonials from './Testimonials';
 import Footer from './Contacts';
+import useScrollRotation from '../scroll';
 
 const HomePage = () => {
+  useScrollRotation()
   return (
     <div className="home-page">
       <section className="hero-wrapper">

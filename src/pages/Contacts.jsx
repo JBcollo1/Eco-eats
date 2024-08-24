@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styling/footer.css';
+import useScrollRotation from '../scroll';
 
 const Footer = () => {
+    useScrollRotation("footer-logo")
   return (
     <footer className="footer">
       <div className="footer-newsletter">
