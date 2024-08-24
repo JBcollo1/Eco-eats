@@ -138,7 +138,7 @@ body {
   }
   
   .product-card-back h3 {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
   }
   
   .product-card-back p {
@@ -244,7 +244,7 @@ body {
   }
   
   .left-arrow {
-    left: -5px; /* Adjust positioning to ensure visibility */
+    left: -5px; 
   }
   
   .right-arrow {

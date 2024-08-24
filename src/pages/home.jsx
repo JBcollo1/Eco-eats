@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styling/Home.css';
 import Testimonials from './Testimonials';
+import Footer from './Contacts';
 
 const HomePage = () => {
   return (
@@ -25,9 +26,9 @@ const HomePage = () => {
                 <h3>Oyster Mushrooms</h3>
               </div>
               <div className="product-card-back">
-                <h3>Organic Shiitake Mushrooms</h3>
-                <p>Rich in flavor and nutrients.</p>
-                <p>Perfect for various dishes.</p>
+                <h3>Oyster Mushrooms</h3>
+                <p>Oyster mushrooms are prized for their mild, savory flavor and tender, velvety texture, making them perfect for sautéing and stir-fries. Rich in protein, fiber, and vitamins B and D, they also offer powerful antioxidants that boost immune health. Known for absorbing flavors well, oyster mushrooms add depth to a variety of dishes. Their unique appearance and earthy taste enhance both the visual appeal and flavor of meals.</p>
+               
                 
               </div>
             </div>
@@ -54,7 +55,8 @@ const HomePage = () => {
               </div>
               <div className="product-card-back">
                 <h3> </h3>Tallow
-                <p>A nutrient-rich fat perfect for high-heat cooking and natural skincare. Known for its rich flavor and moisturizing properties.</p>
+                <p>
+                Tallow is a nutrient-rich fat, ideal for high-heat cooking due to its high smoke point and stability. It adds a deep, savory flavor to dishes, making it popular for frying and roasting. Rich in vitamins A, D, E, and K, tallow also boasts impressive moisturizing properties, making it a key ingredient in natural skincare products. Historically used in traditional cooking and remedies, tallow is cherished for its versatility and health benefits.</p>
                
               </div>
             </div>
@@ -98,10 +100,11 @@ const HomePage = () => {
 
       <Testimonials /> 
 
-      <section className="cta-section">
+      {/* <section className="cta-section">
         <h2>Ready to Try the Best?</h2>
-        <button className="cta-button">Shop Now</button>
-      </section>
+     
+      </section> */}
+      <Footer />
     </div>
   );
 };
