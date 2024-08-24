@@ -119,6 +119,9 @@ body{
   .benefits {
     background-color: #f1f1f1;
     padding: 50px 20px;
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%); 
+    margin-right: calc(-50vw + 50%);
   }
   
   .benefit-cards {
@@ -134,8 +137,8 @@ body{
   }
   
   .benefit-card img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 20px;
   }
   
