@@ -21,14 +21,14 @@ const HomePage = () => {
           <div className="product-card">
             <div className="product-card-inner">
               <div className="product-card-front">
-                <img src="../../src/assets/11.webp" alt="Organic Shiitake Mushrooms" />
-                <h3>Organic Shiitake Mushrooms</h3>
+                <img src="https://media.istockphoto.com/id/157444120/photo/close-up-of-white-colored-oyster-mushroom.jpg?s=612x612&w=0&k=20&c=X2QgogPDfoxc9vUh5jJGtIWKE1OUQhje1oIHjO9OTzs=" alt="Organic Shiitake Mushrooms" />
+                <h3>Oyster Mushrooms</h3>
               </div>
               <div className="product-card-back">
                 <h3>Organic Shiitake Mushrooms</h3>
                 <p>Rich in flavor and nutrients.</p>
                 <p>Perfect for various dishes.</p>
-                <button>Add to Cart</button>
+                
               </div>
             </div>
           </div>
@@ -36,13 +36,39 @@ const HomePage = () => {
           <div className="product-card">
             <div className="product-card-inner">
               <div className="product-card-front">
-                <img src="/images/snail1.jpg" alt="Fresh Snails" />
-                <h3>Fresh Snails</h3>
+                <img src="../../src/assets/escaragot.webp" alt="Fresh Snails" />
+                <h3> Escargot</h3>
               </div>
               <div className="product-card-back">
-                <h3>Fresh Snails</h3>
+                <h3> Escargot</h3>
+                <p>Escargot is a classic French delicacy, featuring tender snails often prepared in a rich garlic butter sauce. These snails are high in protein, low in fat, and provide essential nutrients like iron, magnesium, and omega-3 fatty acids. Escargot not only offers a luxurious dining experience but also supports heart health and contributes to a balanced diet, making it both a gourmet treat and a nutritious choice.</p>
+               
+              </div>
+            </div>
+          </div>
+          <div className="product-card">
+            <div className="product-card-inner">
+              <div className="product-card-front">
+                <img src="../../src/assets/Tallow.webp" alt="Fresh Snails" />
+                <h3> Tallow</h3>
+              </div>
+              <div className="product-card-back">
+                <h3> </h3>Tallow
+                <p>A nutrient-rich fat perfect for high-heat cooking and natural skincare. Known for its rich flavor and moisturizing properties.</p>
+               
+              </div>
+            </div>
+          </div>
+          <div className="product-card">
+            <div className="product-card-inner">
+              <div className="product-card-front">
+                <img src="/images/snail1.jpg" alt="Fresh Snails" />
+                <h3> Escargot</h3>
+              </div>
+              <div className="product-card-back">
+                <h3> Escargot</h3>
                 <p>A gourmet delight for your table.</p>
-                <button>Add to Cart</button>
+               
               </div>
             </div>
           </div>
@@ -53,17 +79,17 @@ const HomePage = () => {
         <h2>Why Choose Eco Eats?</h2>
         <div className="benefit-cards">
           <div className="benefit-card">
-            <img src="../../src/assets/fancy.webp" alt="100% Organic" />
+            <img src="../../src/assets/farm.webp" alt="100% Organic" />
             <h3>100% Organic</h3>
             <p>Our products are grown without chemicals or pesticides.</p>
           </div>
           <div className="benefit-card">
-            <img src="/images/sustainability.png" alt="Sustainably Sourced" />
+            <img src="https://media.istockphoto.com/id/1164107307/photo/pleurotus-sp-oyster-mushroom-class-homobasidiomycetes-series-hymenomycetes-order-agaricales-a.jpg?s=612x612&w=0&k=20&c=ijomMO7PkfAFq-NvEeus1G7s1f1vJmoEFg75ktbWfgU=" alt="Sustainably Sourced" />
             <h3>Sustainably Sourced</h3>
             <p>We prioritize sustainable farming practices.</p>
           </div>
           <div className="benefit-card">
-            <img src="/images/nutrition.png" alt="Rich in Nutrients" />
+            <img src="https://media.istockphoto.com/id/1273246946/photo/close-up-various-fresh-picked-mushrooms-on-wood-board.jpg?s=612x612&w=0&k=20&c=1fG_J2-BZRUYhFVLdqmTxmFuH35Lxg0Z3nN8dhndU2o=" alt="Rich in Nutrients" />
             <h3>Rich in Nutrients</h3>
             <p>Our mushrooms and snails are packed with essential nutrients.</p>
           </div>

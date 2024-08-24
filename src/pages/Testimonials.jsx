@@ -22,20 +22,35 @@ const Testimonials = () => {
   return (
     <section className="testimonials">
       <h2>What Our Customers Say</h2>
-      <div className="testimonial-container">
-        {testimonials.map((testimonial, index) => (
-          <div
-            key={testimonial.id}
-            className={`testimonial-card ${index === currentTestimonial ? 'active' : ''}`}
-          >
-            <p>{testimonial.quote}</p>
-            <h4>{testimonial.author}</h4>
-          </div>
-        ))}
-      </div>
-      <div className="testimonial-buttons">
-        <button onClick={handlePrevTestimonial}> n </button>
-        <button onClick={handleNextTestimonial}>Next</button>
+      <div className="tv-screen">
+        <div className="stars">
+          {'★'.repeat(5)}
+        </div>
+        <div className="testimonial-container">
+          {testimonials.map((testimonial, index) => (
+            <div
+              key={testimonial.id}
+              className={`testimonial-card ${index === currentTestimonial ? 'active' : ''}`}
+            >
+              <p>{testimonial.quote}</p>
+              <h4>{testimonial.author}</h4>
+            </div>
+          ))}
+        </div>
+        <button className="arrow left-arrow" onClick={handlePrevTestimonial}>
+          &larr;
+        </button>
+        <button className="arrow right-arrow" onClick={handleNextTestimonial}>
+          &rarr;
+        </button>
+        <div className="dots">
+          {testimonials.map((_, index) => (
+            <span
+              key={index}
+              className={`dot ${index === currentTestimonial ? 'active' : ''}`}
+            ></span>
+          ))}
+        </div>
       </div>
     </section>
   );
