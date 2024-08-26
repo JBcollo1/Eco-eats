@@ -3,6 +3,7 @@ import '../styling/Home.css';
 import Testimonials from './Testimonials';
 import Footer from './Contacts';
 import useScrollRotation from '../scroll';
+import FAQ from './faq';
 
 const HomePage = () => {
   useScrollRotation()
@@ -66,7 +67,7 @@ const HomePage = () => {
           <div className="product-card">
             <div className="product-card-inner">
               <div className="product-card-front">
-                <img src="/images/snail1.jpg" alt="Fresh Snails" />
+                <img src="https://media.istockphoto.com/id/1082526308/photo/close-up-of-dry-mushrooms-in-jar.jpg?s=612x612&w=0&k=20&c=z2fVV74-24EdSg_8u_Qt0Jezu__PtK2KQ8k_oIkzH58=" alt="Fresh Snails" />
                 <h3> Escargot</h3>
               </div>
               <div className="product-card-back">
@@ -99,14 +100,14 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
+      <FAQ />
       <Testimonials /> 
 
       {/* <section className="cta-section">
         <h2>Ready to Try the Best?</h2>
      
       </section> */}
-      <Footer />
+    
     </div>
   );
 };

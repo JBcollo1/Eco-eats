@@ -1,17 +1,16 @@
 import React from 'react';
 import '../styling/footer.css';
 import useScrollRotation from '../scroll';
+import FAQ from './faq';
+import { Link } from 'react-router-dom';
+import ContactModal from './contactmodal';
 
 const Footer = () => {
     useScrollRotation("footer-logo")
   return (
     <footer className="footer">
       <div className="footer-newsletter">
-        {/* <h3>SIGN UP TO OUR NEWSLETTER</h3>
-        <div className="newsletter-input">
-          <input type="email" placeholder="Email address" />
-          <button>SUBSCRIBE</button> */}
-        {/* </div> */}
+        
       </div>
       <div className="footer-content">
         <div className="footer-column">
@@ -20,10 +19,14 @@ const Footer = () => {
         <div className="footer-column">
           <h4>ABOUT</h4>
           <ul>
+            <Link to = "/about">
             <li><a href="#">ABOUT US</a></li>
-            
+            </Link>
+            <Link to = "/community">
             <li><a href="#">OUR COMMUNITIES</a></li>
-            <li><a href="#"> OUR TEAM</a></li>
+            </Link>
+            
+          
             
          
           </ul>
@@ -31,17 +34,16 @@ const Footer = () => {
         <div className="footer-column">
           <h4>HELP</h4>
           <ul>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">DELIVERY INFORMATION</a></li>
-            <li><a href="#">RETURNS & REFUNDS</a></li>
-            <li><a href="#">CONTACT US</a></li>
+           
+            <li><a href="#" data-contact-us>CONTACT US</a></li>
+            <ContactModal/>
           </ul>
         </div>
         <div className="footer-column">
           <h4>WEBSITE</h4>
           <ul>
             <li><a href="#">TERMS & CONDITIONS</a></li>
-            <li><a href="#">PRIVACY POLICY</a></li>
+           
            
           </ul>
         </div>

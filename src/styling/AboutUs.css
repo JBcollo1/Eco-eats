@@ -1,0 +1,161 @@
+/* General Styling */
+.about-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Header Section */
+.about-header {
+    background-color: #070707;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+    color: white;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+.about-header h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-header p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Mission Section */
+.mission-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.mission-text {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.mission-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0f100f;
+}
+
+.mission-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.mission-image {
+    width: 45%;
+}
+
+.mission-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Team Section */
+.team-section {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0f100f;
+}
+
+.team-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.team-member {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #555;
+}
+
+.team-text {
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.team-text p, .team-text ul {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.team-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-text li {
+    margin-bottom: 10px;
+}
+
+.team-text li strong {
+    color: #0f100f;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #adb5af;
+    color: white;
+    padding: 50px 20px;
+    margin-top: 40px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+.cta-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta-section .cta-button {
+    background-color: white;
+    color: #99a29b;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #ddd;
+}

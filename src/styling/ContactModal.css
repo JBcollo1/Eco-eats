@@ -1,0 +1,235 @@
+/* Button Styling */
+.contact-button {
+    background-color: #040404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.contact-button:hover {
+    background-color: #218838;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Slide In and Out */
+.slide-in {
+    animation: slide-in 0.3s forwards;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-out {
+    animation: slide-out 0.3s forwards;
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+/* Modal Navbar */
+.modal-navbar {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: -20px;
+    width: 390px;
+    z-index: 1001;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.navbar-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #0f100f;
+    margin-right: 15px;
+}
+
+.close-button {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+/* Contact Details */
+.contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-icons a {
+    color: #333;
+    display: block;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.contact-icons a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* FAQ Button */
+.faq-button {
+    background-color: #3b3e3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.faq-button:hover {
+    background-color: #0e0f0e;
+}
+
+/* FAQ Section */
+.faq-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+.faq-section {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ddd;
+    
+}
+.faq-question {
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.faq-answer {
+    display: none;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.plus-icon {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.faq-item .faq-question:focus + .faq-answer,
+.faq-item .faq-question:hover + .faq-answer {
+    display: block;
+}
+
+.back-button {
+    background-color: #8d958f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #030303;
+}
+
+/* Terms & Agreement Section */
+.terms-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.terms-section {
+
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.terms-section.active {
+    display: block; /* Show when active */
+}
+.terms-section h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.terms-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
