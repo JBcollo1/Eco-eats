@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import '../styling/FAQ.css'; // Make sure to add styling for this component
+import '../styling/FAQ.css'; // Ensure you have appropriate styles for this component
 
 const FAQ = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [openFAQIndex, setOpenFAQIndex] = useState(null);
 
   const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    setOpenFAQIndex(openFAQIndex === index ? null : index);
   };
 
   const faqData = [
@@ -29,22 +29,21 @@ const FAQ = () => {
 
   return (
     <section className="faq">
-      <h2>Frequently Asked Questions</h2>
-      {faqData.map((item, index) => (
-        <div
-          key={index}
-          className={`faq-item ${activeIndex === index ? 'active' : ''}`}
-          onClick={() => toggleFAQ(index)}
-        >
-          <div className="faq-question">
-            {item.question}
-            <span className="arrow">{activeIndex === index ? '▲' : '▼'}</span>
-          </div>
-          <div className={`faq-answer ${activeIndex === index ? 'show' : ''}`}>
-            {item.answer}
-          </div>
-        </div>
-      ))}
+      <h2>Some Frequently Asked Questions</h2>
+      <ul className="faq-list">
+        {faqData.map((faq, index) => (
+          <li key={index} className="faq-item">
+            <button
+              className="faq-question"
+              onClick={() => toggleFAQ(index)}
+              aria-expanded={openFAQIndex === index}
+            >
+              {faq.question} <span className="plus-icon">{openFAQIndex === index ? '-' : '+'}</span>
+            </button>
+            {openFAQIndex === index && <p className="faq-answer">{faq.answer}</p>}
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };

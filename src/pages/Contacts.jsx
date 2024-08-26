@@ -4,9 +4,12 @@ import useScrollRotation from '../scroll';
 import FAQ from './faq';
 import { Link } from 'react-router-dom';
 import ContactModal from './contactmodal';
+import { FaTwitter, FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
     useScrollRotation("footer-logo")
+    
+    
   return (
     <footer className="footer">
       <div className="footer-newsletter">
@@ -36,13 +39,15 @@ const Footer = () => {
           <ul>
            
             <li><a href="#" data-contact-us>CONTACT US</a></li>
-            <ContactModal/>
+            <li><a href="#" data-contact-us>FAQs</a></li>
+
+            
           </ul>
         </div>
         <div className="footer-column">
           <h4>WEBSITE</h4>
           <ul>
-            <li><a href="#">TERMS & CONDITIONS</a></li>
+            <li><a href="#terms" data-contact-us>TERMS & CONDITIONS</a></li>
            
            
           </ul>
@@ -56,11 +61,14 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-column social-icons">
-          <a href="#"><i className="fab fa-instagram"></i></a>
-          <a href="#"><i className="fab fa-twitter"></i></a>
-          <a href="#"><i className="fab fa-facebook-f"></i></a>
+          <a href="#" className="fab"><FaInstagram /></a>
+          <a href="#" className="fab"><FaTwitter /></a>
+          <a href="#" className="fab"><FaFacebook /></a>
+          <a href="#" className="fab"><FaTiktok /></a>
+
         </div>
       </div>
+      <ContactModal/>
       <div className="footer-bottom">
         <p>&copy; 2024 Eco-Eats. All Rights Reserved.</p>
        

@@ -45,6 +45,7 @@
   .arrow {
     font-size: 18px;
     color: #666;
-    margin-top: 1900px;
+    /* margin-top: 1900px; */
+    margin-left: 10px;
   }
   

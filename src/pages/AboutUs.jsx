@@ -50,8 +50,7 @@ const AboutUs = () => {
       <section className="cta-section">
         <h2>Join Us on Our Journey</h2>
         <p>We're always looking for passionate individuals to join our team and help us bring healthy, organic products to more people. Get in touch to learn more!</p>
-        <button data-contact-us>Contact Us</button>
-        <ContactModal />
+        
       </section>
     </div>
   );

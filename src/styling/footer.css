@@ -80,7 +80,11 @@
     justify-content: center;
     margin-top: 1rem;
   }
-  
+  .fab:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    color: aqua;
+  }
   .social-icons a {
     color: #fff;
     font-size: 1.5rem;
