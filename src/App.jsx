@@ -7,6 +7,7 @@ import Home from './pages/home'
 import Footer from './pages/Contacts'
 import AboutUs from './pages/AboutUs'
 import Communities from './pages/communities'
+import ProductPage from './pages/product'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
     
       <>
       <Routes>
+        <Route path='/product' element = {<ProductPage />}/>
         <Route path= "/about" element = {< AboutUs/>}/>
         <Route path ='/' element = {< Home/>}/>
         <Route path = "/community" element= {<Communities />}/>

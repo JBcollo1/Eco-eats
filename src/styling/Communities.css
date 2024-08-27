@@ -1,6 +1,5 @@
 /* General Styling */
 .communities-page {
- 
     color: #333;
     padding: 40px 20px;
     text-align: center;
@@ -59,4 +58,44 @@
     font-size: 18px;
     line-height: 1.6;
     color: #333;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .community-section {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .community-image, .community-story {
+        width: 100%; /* Full width on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+        padding-left: 0;
+    }
+
+    .community-story {
+        margin-top: 20px; /* Add spacing between sections */
+    }
+
+    .community-story h2 {
+        font-size: 32px; /* Slightly reduce font size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .communities-header h1 {
+        font-size: 36px; /* Slightly reduce font size */
+    }
+
+    .communities-header p {
+        font-size: 16px;
+    }
+
+    .community-story h2 {
+        font-size: 28px; /* Further reduce font size */
+    }
+
+    .community-story p {
+        font-size: 16px; /* Reduce paragraph font size */
+    }
 }

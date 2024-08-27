@@ -116,30 +116,33 @@
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 .contact-details {
     padding: 20px;
-    
-  }
-  .contact-icons a {
+}
+
+.contact-icons a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: black;
     font-size: 19px; 
-  }
+}
+
 .contact-icons {
     display: flex;
     flex-direction: column; 
     gap: 15px;
-  }
- .contact-icons a .icon {
+}
+
+.contact-icons a .icon {
     margin-right: 10px; 
- }
+}
+
 .contact-icons a:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
-
 
 /* FAQ Button */
 .faq-button {
@@ -171,13 +174,14 @@
 .faq-item {
     margin-bottom: 10px;
 }
+
 .faq-section {
     background-color: white;
     color: black;
     padding: 20px;
     border: 1px solid #ddd;
-    
 }
+
 .faq-question {
     background: none;
     border: none;
@@ -206,6 +210,7 @@
     display: block;
 }
 
+/* Back Button */
 .back-button {
     background-color: #8d958f;
     color: white;
@@ -226,8 +231,8 @@
     font-size: 24px;
     margin-bottom: 20px;
 }
-.terms-section {
 
+.terms-section {
     background-color: white;
     color: black;
     padding: 20px;
@@ -237,6 +242,7 @@
 .terms-section.active {
     display: block; /* Show when active */
 }
+
 .terms-section h3 {
     font-size: 18px;
     margin-top: 15px;
@@ -245,4 +251,53 @@
 .terms-section p {
     font-size: 16px;
     line-height: 1.6;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .modal-content {
+        width: 90%; /* Adjust modal width on smaller screens */
+        height: 80vh; /* Adjust modal height */
+    }
+
+    .modal-navbar {
+        width: 100%; /* Navbar width adjustment */
+    }
+
+    .contact-button {
+        padding: 8px 16px;
+        font-size: 16px; /* Slightly reduce button size */
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .faq-button, .back-button {
+        font-size: 16px; /* Adjust button size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modal-content {
+        width: 100%; /* Full width on smaller screens */
+        height: 75vh; /* Adjust modal height */
+    }
+
+    .contact-button {
+        padding: 6px 12px;
+        font-size: 14px; /* Further reduce button size */
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .faq-button, .back-button {
+        font-size: 14px; /* Further adjust button size */
+    }
+
+    .terms-section h2, .faq-section h2 {
+        font-size: 20px; /* Reduce section heading size */
+    }
+
+    .terms-section p, .faq-answer {
+        font-size: 14px; /* Reduce paragraph size */
+    }
 }

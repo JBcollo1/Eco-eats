@@ -14,7 +14,7 @@ const HomePage = () => {
           <div className="hero-content">
             <h1>Savor the Earth’s Delicacies</h1>
             <p>Explore our selection of organic mushrooms and snails, grown with care.</p>
-            {/* <button className="cta-button">Shop Now</button> */}
+            
           </div>
         </section>
       </section>
@@ -103,10 +103,7 @@ const HomePage = () => {
       <FAQ />
       <Testimonials /> 
 
-      {/* <section className="cta-section">
-        <h2>Ready to Try the Best?</h2>
-     
-      </section> */}
+      
     
     </div>
   );

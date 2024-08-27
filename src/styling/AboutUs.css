@@ -1,6 +1,5 @@
 /* General Styling */
 .about-page {
-    
     color: #333;
     padding: 40px 20px;
     text-align: center;
@@ -158,4 +157,45 @@
 
 .cta-section .cta-button:hover {
     background-color: #ddd;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .mission-section, .team-content {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .mission-text, .mission-image, .team-member, .team-text {
+        width: 100%; /* Full width on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .team-text {
+        margin-top: 20px; /* Add spacing between sections */
+    }
+
+    .mission-text {
+        margin-bottom: 20px; /* Add spacing between sections */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-header h1 {
+        font-size: 36px; 
+    }
+
+    .about-header p {
+        font-size: 16px;
+    }
+
+    .mission-text h2, .team-section h2, .cta-section h2 {
+        font-size: 28px;
+    }
+
+    .mission-text p, .team-text p, .team-text ul, .cta-section .cta-button {
+        font-size: 16px;
+    }
 }

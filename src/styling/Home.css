@@ -279,5 +279,42 @@ body {
   }
   
   
+    
   
+@media screen and (max-width: 768px){
+  .tv-screen{
+    width: 450px;
+    margin-right: 5px;
+  }
+
+   
+  .hero h1 {
+    font-size: 40px;
+    font-weight: 700;
   
+  }
+  
+  .hero p {
+    font-size: 20px;
+   
+  }
+}
+  
+@media screen and (max-width: 480px){
+  .tv-screen{
+    width: 300px;
+    margin-right: 5px;
+  }
+
+   
+  .hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+  
+  }
+  
+  .hero p {
+    font-size: 20px;
+   
+  }
+}
