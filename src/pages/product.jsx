@@ -20,14 +20,14 @@ const ProductPage = () => {
       id: 2,
       name: 'Fresh Snails',
       description: 'A gourmet delight for your table.',
-      image: '/images/snails.jpg',
+      image: 'https://media.istockphoto.com/id/1569807729/photo/a-snails-journey-in-the-garden.jpg?s=612x612&w=0&k=20&c=b6cbVTsuvA73yr3xo_6Ypu1rfFIZIbe8SvMFf8ZPmV8=',
       price: '$24.99',
     },
     {
       id: 3,
-      name: 'Oyster Mushrooms',
-      description: 'Delicate and full of flavor.',
-      image: '/images/oyster.jpg',
+      name: 'Snail slime',
+      description: 'Has a number of health benefits.',
+      image: '../../src/assets/slime.webp',
       price: '$12.99',
     },
     {

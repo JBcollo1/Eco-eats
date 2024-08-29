@@ -16,14 +16,14 @@ const Communities = () => {
         <div className="community-story">
           <h2>Our Journey Together</h2>
           <p>
-            Our collaboration with [Community Name] began with a shared vision of creating a sustainable future. 
+            Our collaboration with Ungana began with a shared vision of creating a sustainable future. 
             Together, we've worked to promote eco-friendly practices and support local farmers. 
             Their dedication to organic farming aligns perfectly with our mission at Eco Eats, 
             making this partnership a natural fit. 
             We've not only cultivated great produce but also built a community that values sustainability and quality.
           </p>
           <p>
-            Through this partnership, Eco Eats and [Community Name] have been able to bring fresh, organic mushrooms and snails 
+            Through this partnership, Eco Eats and Ungana have been able to bring fresh, organic mushrooms and snails 
             to tables across the region, ensuring that our customers receive the best quality products while supporting local agriculture.
           </p>
         </div>

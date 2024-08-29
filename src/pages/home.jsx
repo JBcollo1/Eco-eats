@@ -71,8 +71,8 @@ const HomePage = () => {
                 <h3> Escargot</h3>
               </div>
               <div className="product-card-back">
-                <h3> Escargot</h3>
-                <p>A gourmet delight for your table.</p>
+                <h3> Dried mushroom</h3>
+                <p>Dried mushrooms are dehydrated fungi that retain their rich, earthy flavor and nutritional benefits. They are commonly used in cooking to add depth and umami to dishes like soups, stews, and sauces. Before use, they are typically rehydrated by soaking in water, which also creates a flavorful broth. Dried mushrooms have a long shelf life, making them a convenient pantry staple. They are also valued in traditional medicine for their potential health benefits, including immune support and anti-inflammatory properties..</p>
                
               </div>
             </div>
