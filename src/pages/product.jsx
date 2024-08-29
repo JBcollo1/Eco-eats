@@ -41,7 +41,7 @@ const ProductPage = () => {
       id: 5,
       name: 'Escargot',
       description: 'Exquisite and tender.',
-      image: '../../public/assets/escaragot.webp',
+      image: '/assets/escaragot.webp',
       price: '$29.99',
     },
     {

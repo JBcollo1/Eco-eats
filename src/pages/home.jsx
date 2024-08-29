@@ -40,7 +40,7 @@ const HomePage = () => {
           <div className="product-card">
             <div className="product-card-inner">
               <div className="product-card-front">
-                <img src="../../public/assets/escaragot.webp" alt="Fresh Snails" />
+                <img src="/assets/escaragot.webp" alt="Fresh Snails" />
                 <h3> Escargot</h3>
               </div>
               <div className="product-card-back">
@@ -53,7 +53,7 @@ const HomePage = () => {
           <div className="product-card">
             <div className="product-card-inner">
               <div className="product-card-front">
-                <img src="../../public/assets/Tallow.webp" alt="Fresh Snails" />
+                <img src="/assets/Tallow.webp" alt="Fresh Snails" />
                 <h3> Tallow</h3>
               </div>
               <div className="product-card-back">
@@ -84,7 +84,7 @@ const HomePage = () => {
         <h2>Why Choose Eco Eats?</h2>
         <div className="benefit-cards">
           <div className="benefit-card">
-            <img src="../../public/assets/farm.webp" alt="100% Organic" />
+            <img src="/assets/farm.webp" alt="100% Organic" />
             <h3>100% Organic</h3>
             <p>Our products are grown without chemicals or pesticides.</p>
           </div>
