@@ -333,19 +333,29 @@ body {
 @media screen and (max-width: 376px){
   .tv-screen{
     width: 250px;
-    margin-left: -48px;
+    margin-left: -46px;
   }
   .hero{
-    height: 90vh;
+    height: 80vh;
     width: 90vw;
     
+  }
+  p{
+    font-size: 15px;
+  }
+  .product-card-back p{
+    font-size: 10px;
+  }
+  .benefit-card img{
+    height: 100px;
+    width: 100px;
   }
   .product-card{
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 200px;
-    margin-left: -30px;
+    margin-left: -70px;
   }
   .hero h1 {
     font-size: 30px;
@@ -355,8 +365,5 @@ body {
   .benefits{
     margin-left: -34px;
   }
-  .hero p {
-    font-size: 20px;
-   
-  }
+  
 }
