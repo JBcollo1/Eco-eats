@@ -299,7 +299,7 @@ body {
   }
 }
   
-@media screen and (max-width: 490px){
+@media screen and (max-width: 480px){
   .tv-screen{
     width: 350px;
     margin-left: -48px;
@@ -361,6 +361,49 @@ body {
     width: 200px;
     height: 350px;
     margin-left: -70px;
+  }
+  .hero h1 {
+    font-size: 30px;
+    font-weight: 700;
+  
+  }
+  .benefits{
+    margin-left: -34px;
+  }
+  
+}
+ 
+@media screen and (max-width: 456px){
+  .tv-screen{
+    width: 330px;
+    margin-left: -46px;
+    height: 300px;
+  }
+  .hero{
+    height: 80vh;
+    width: 90vw;
+    
+  }
+  .benefits{
+    width: 400px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .product-card-back p{
+    font-size: 10px;
+  }
+  .benefit-card img{
+    height: 100px;
+    width: 100px;
+  }
+  .product-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 250px;
+    height: 350px;
+    margin-left: 50px;
   }
   .hero h1 {
     font-size: 30px;
