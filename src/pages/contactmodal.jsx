@@ -82,7 +82,7 @@ const ContactModal = () => {
                 <div className="contact-details">
                   <h2>Contact Us</h2>
                   <div className="contact-icons">
-                    <a href="tel:+25444444444" className='ee'><FaPhone /> +254 44444444 or +254 44444444</a>
+                    <a href="tel:+254798033129" className='ee'><FaPhone /> +254798033129 </a>
                     <a href="mailto:anita@gmail.com" className='ee'><FaEnvelope /> aaaa@gmail.com</a>
                     <a href="https://www.instagram.com/ecoeats" className='ee'><FaInstagram /></a>
                     <a href="https://www.tiktok.com/@ecoeats" className='ee'><FaTiktok /></a>
