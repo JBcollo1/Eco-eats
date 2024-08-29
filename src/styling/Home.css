@@ -19,7 +19,7 @@ body {
   }
   
   .hero {
-    background-image: url('../assets/fancy2.webp');
+    background-image: url('../../public/assets/fancy2.webp');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -305,8 +305,17 @@ body {
     width: 300px;
     margin-right: 5px;
   }
-  .hero{
-    margin-left:-30px;
+  .hero {
+    height: 70vh;
+    padding: 0 10px;
+    background-position: top;
+  }
+
+  .hero-content {
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 300px;
+    padding: 10px;
   }
    
   .hero h1 {

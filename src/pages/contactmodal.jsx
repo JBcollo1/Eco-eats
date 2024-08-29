@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styling/ContactModal.css';
 import { FaPhone, FaEnvelope, FaInstagram, FaTiktok } from 'react-icons/fa';
-import logo from '../assets/logo.webp';
+// import logo from '../assets/logo.webp';
 
 const faqs = [
   { question: "What products does Eco Eats offer?", answer: "Eco Eats offers a range of gourmet products including Oyster Mushrooms, Escargot, Tallow, and dried mushrooms. All our products are carefully selected to ensure high quality and sustainability." },

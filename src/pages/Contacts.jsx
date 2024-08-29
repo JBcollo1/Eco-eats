@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="footer-content">
         <div className="footer-column">
-          <img src="../../src/assets/logo.webp" alt="Eco Eats" className="footer-logo" />
+          <img src="../../public/assets/logo.webp" alt="Eco Eats" className="footer-logo" />
         </div>
         <div className="footer-column">
           <h4>ABOUT</h4>
