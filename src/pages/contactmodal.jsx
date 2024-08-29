@@ -66,7 +66,7 @@ const ContactModal = () => {
           <div className={`modal-overlay ${isOpen ? 'slide-in' : 'slide-out'}`}>
             <div className="modal-content">
               <div className="modal-navbar">
-                <img src={logo} alt="Eco Eats Logo" className="logo" />
+                <img src="/assets/logo.webp" alt="Eco Eats Logo" className="logo" />
                 <button className="navbar-button" onClick={toggleFAQ}>
                   FAQs
                 </button>

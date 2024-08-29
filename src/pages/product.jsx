@@ -27,14 +27,14 @@ const ProductPage = () => {
       id: 3,
       name: 'Snail slime',
       description: 'Has a number of health benefits.',
-      image: '../../public/assets/slime.webp',
+      image: '/assets/slime.webp',
       price: '$12.99',
     },
     {
       id: 4,
       name: 'Tallow',
       description: 'Hearty and satisfying.',
-      image: '../../public/assets/Tallow.webp',
+      image: '/assets/Tallow.webp',
       price: '$18.99',
     },
     {
