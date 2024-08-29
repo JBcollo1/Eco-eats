@@ -19,12 +19,22 @@
     width: 250px;
     text-align: center;
 }
-
+.item-list, .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
 .item-card img {
     max-width: 100%;
     height: auto;
 }
-
+.item-card, .product-card {
+    width: 100%;
+    max-width: 300px; /* Ensure it fits within the screen */
+    margin: 10px auto;
+}
 .item-card h3 {
     margin: 15px 0;
 }
@@ -47,9 +57,9 @@
 }
 
 .item-graph {
-    padding: 50px 20px;
+    padding: 20px;
     width: 100%;
-    max-width: 100%; /* Ensure the graph fits within the screen width */
+   
     box-sizing: border-box; /* Include padding in the element's width */
 }
 
@@ -62,16 +72,14 @@
         flex-direction: column;
         align-items: center;
     }
-
     .item-card {
-        width: 90%;
-        max-width: 100%;
+        width: 100%;
+        max-width: 300px; /* Fits within the screen */
+        margin: 10px auto;
     }
 
     .item-graph {
         padding: 20px 10px;
-        width: 100%;
-        max-width: 100%;
     }
 }
 
@@ -80,14 +88,14 @@
         flex-direction: column;
         align-items: center;
     }
-
     .item-card {
         width: 90%;
-        max-width: 100%;
+        max-width: 300px; /* Adjust for smaller screens */
     }
 
+ 
     .item-graph {
-        padding: 20px 10px;
+        padding: 10px 5px;
         width: 100%; /* Ensure the graph fits within the screen width */
         max-width: 100%;
     }
