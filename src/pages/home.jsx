@@ -68,7 +68,7 @@ const HomePage = () => {
             <div className="product-card-inner">
               <div className="product-card-front">
                 <img src="https://media.istockphoto.com/id/1082526308/photo/close-up-of-dry-mushrooms-in-jar.jpg?s=612x612&w=0&k=20&c=z2fVV74-24EdSg_8u_Qt0Jezu__PtK2KQ8k_oIkzH58=" alt="Fresh Snails" />
-                <h3> Escargot</h3>
+                <h3> Dried mushroom</h3>
               </div>
               <div className="product-card-back">
                 <h3> Dried mushroom</h3>
