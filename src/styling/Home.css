@@ -342,7 +342,7 @@ body {
     
   }
   .benefits{
-    width: 100vw;
+    width: 300px;
   }
   p{
     font-size: 15px;
@@ -359,6 +359,7 @@ body {
     flex-direction: column;
     gap: 30px;
     width: 200px;
+    height: 350px;
     margin-left: -70px;
   }
   .hero h1 {
