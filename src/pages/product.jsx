@@ -11,7 +11,7 @@ const ProductPage = () => {
   const items = [
     {
       id: 1,
-      name: 'Organic Shiitake Mushrooms',
+      name: 'Shiitake Mushrooms',
       description: 'Rich in flavor and nutrients.',
       image: 'https://media.istockphoto.com/id/157444120/photo/close-up-of-white-colored-oyster-mushroom.jpg?s=612x612&w=0&k=20&c=X2QgogPDfoxc9vUh5jJGtIWKE1OUQhje1oIHjO9OTzs=',
       price: '$15.99',

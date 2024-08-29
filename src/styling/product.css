@@ -1,75 +1,59 @@
-/* General Styling */
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: white;
-}
-
-/* Item Page */
 .item-page {
     font-family: 'Arial', sans-serif;
     color: #333;
     text-align: center;
-}
-
-.item-list {
+  }
+  
+  .item-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    width: 100%;
-}
-
-.item-card {
+  }
+  
+  .item-card {
     background: #f9f9f9;
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
-    width: 100%;
-    max-width: 300px;
+    width: 250px;
     text-align: center;
-}
-
-.item-card img {
+  }
+  
+  .item-card img {
     max-width: 100%;
     height: auto;
-}
-
-.item-card h3 {
+  }
+  
+  .item-card h3 {
     margin: 15px 0;
-}
-
-.item-card .price {
+  }
+  
+  .item-card .price {
     font-weight: bold;
     margin: 10px 0;
-}
-
-.item-card button {
+  }
+  
+  .item-card button {
     background-color: #0f100f;
     color: white;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-}
-
-.item-card button:hover {
+  }
+  
+  .item-card button:hover {
     background-color: #218838;
-}
-
-/* Item Graph */
-.item-graph {
+  }
+  
+  .item-graph {
     padding: 50px 20px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.item-graph h2 {
+  }
+  
+  .item-graph h2 {
     margin-bottom: 20px;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 720px) {
+  }
+  @media (max-width: 480px) {
     .item-list {
         flex-direction: column;
         align-items: center;
@@ -77,23 +61,28 @@ body {
 
     .item-card {
         width: 90%;
-        max-width: 300px;
-        margin: 10px auto;
+        max-width: 100%;
     }
 
     .item-graph {
         padding: 20px 10px;
     }
 }
+@media (max-width: 600px) {
+    .item-list {
+        flex-direction: column;
+        align-items: center;
+    }
 
-@media (max-width: 480px) {
     .item-card {
-        width: 90%;
-        max-width: 300px;
-        margin: 10px auto;
+        width: 70%;
+        max-width: 100%;
     }
 
     .item-graph {
-        padding: 10px 5px;
+        padding: 20px 10px;
+        width: 450px;
+        
+        margin-left: -60px;
     }
 }
