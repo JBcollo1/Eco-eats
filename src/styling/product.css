@@ -1,14 +1,24 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+/* Item Page */
 .item-page {
-    font-family: poppins;
+    font-family: 'Arial', sans-serif;
     color: #333;
     text-align: center;
 }
 
 .item-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .item-card {
@@ -16,25 +26,16 @@
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
-    width: 250px;
+    width: 100%;
+    max-width: 300px;
     text-align: center;
 }
-.item-list, .product-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 100%;
-}
+
 .item-card img {
     max-width: 100%;
     height: auto;
 }
-.item-card, .product-card {
-    width: 100%;
-    max-width: 300px; /* Ensure it fits within the screen */
-    margin: 10px auto;
-}
+
 .item-card h3 {
     margin: 15px 0;
 }
@@ -56,25 +57,27 @@
     background-color: #218838;
 }
 
+/* Item Graph */
 .item-graph {
-    padding: 20px;
+    padding: 50px 20px;
     width: 100%;
-   
-    box-sizing: border-box; /* Include padding in the element's width */
+    box-sizing: border-box;
 }
 
 .item-graph h2 {
     margin-bottom: 20px;
 }
 
+/* Responsive Adjustments */
 @media (max-width: 720px) {
     .item-list {
         flex-direction: column;
         align-items: center;
     }
+
     .item-card {
-        width: 100%;
-        max-width: 300px; /* Fits within the screen */
+        width: 90%;
+        max-width: 300px;
         margin: 10px auto;
     }
 
@@ -84,19 +87,13 @@
 }
 
 @media (max-width: 480px) {
-    .item-list {
-        flex-direction: column;
-        align-items: center;
-    }
     .item-card {
         width: 90%;
-        max-width: 300px; /* Adjust for smaller screens */
+        max-width: 300px;
+        margin: 10px auto;
     }
 
- 
     .item-graph {
         padding: 10px 5px;
-        width: 100%; /* Ensure the graph fits within the screen width */
-        max-width: 100%;
     }
 }
