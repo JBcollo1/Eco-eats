@@ -299,7 +299,7 @@ body {
   }
 }
   
-@media screen and (max-width: 4600px){
+@media screen and (max-width: 460px){
   .tv-screen{
     width: 350px;
     margin-left: -48px;
