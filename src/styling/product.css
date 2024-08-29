@@ -89,3 +89,21 @@
         margin-left: -60px;
     }
 }
+@media screen and (max-width: 480px) {
+    .item-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-card {
+        width: 70%;
+        max-width: 100%;
+    }
+
+    .item-graph {
+        padding: 20px 10px;
+        width: 300px;
+        
+        margin-left: -50px;
+    }
+}

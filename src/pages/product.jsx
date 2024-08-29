@@ -11,7 +11,7 @@ const ProductPage = () => {
   const items = [
     {
       id: 1,
-      name: 'Shiitake Mushrooms',
+      name: '    Mushrooms',
       description: 'Rich in flavor and nutrients.',
       image: 'https://media.istockphoto.com/id/157444120/photo/close-up-of-white-colored-oyster-mushroom.jpg?s=612x612&w=0&k=20&c=X2QgogPDfoxc9vUh5jJGtIWKE1OUQhje1oIHjO9OTzs=',
       price: '$15.99',
@@ -46,7 +46,7 @@ const ProductPage = () => {
     },
     {
       id: 6,
-      name: 'Dried Morel Mushrooms',
+      name: 'Dried Mushrooms',
       description: 'Earthy and aromatic.',
       image: 'https://media.istockphoto.com/id/1082526308/photo/close-up-of-dry-mushrooms-in-jar.jpg?s=612x612&w=0&k=20&c=z2fVV74-24EdSg_8u_Qt0Jezu__PtK2KQ8k_oIkzH58=',
       price: '$34.99',
